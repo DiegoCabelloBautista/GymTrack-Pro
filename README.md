@@ -1,28 +1,24 @@
-# GymTrack Pro - Gestión de Rutinas y Progresión de Cargas 🏋️‍♂️
+# GymTrack Pro 🏋️‍♂️
 
-GymTrack Pro es una aplicación web técnica diseñada para optimizar el rendimiento físico mediante el análisis de datos. El proyecto permite a los deportistas llevar un registro estricto de sus entrenamientos para evitar el progreso aleatorio y el estancamiento.
+## 📝 Descripción del Proyecto
+**GymTrack Pro** es una aplicación web técnica diseñada para la optimización del rendimiento físico mediante el análisis de datos. El proyecto surge para dar respuesta a la necesidad real de los deportistas de gimnasio que fallan al no llevar un registro estricto de sus entrenamientos.
 
-## 📊 Definición del Problema
-La mayoría de los deportistas fallan al no registrar sus marcas, perdiendo la noción del peso levantado o el volumen acumulado. GymTrack Pro transforma estos datos en información útil mediante una plataforma rápida y visual.
+Sin saber cuánto peso se levantó previamente o cuánto volumen se acumula por grupo muscular, el progreso se vuelve aleatorio. GymTrack Pro soluciona este estancamiento transformando los datos de entrenamiento en información útil, permitiendo aplicar la **sobrecarga progresiva de forma científica** a través de una plataforma rápida, visual y totalmente orientada al uso en dispositivos móviles.
 
-## ✨ Funcionalidades Mínimas (MVP)
-Para cumplir con los objetivos generales del proyecto, se han definido las siguientes funcionalidades core:
+## ⚙️ Funcionalidades Principales
+El sistema se basa en los siguientes módulos fundamentales para garantizar el control total del entrenamiento:
 
-* **Sistema de Autenticación:** Registro y gestión de perfiles de usuario de forma segura.
-* **Constructor de Rutinas:** CRUD completo para crear y personalizar planes de entrenamiento.
-* **Registro de Marcas:** Anotación de pesos y repeticiones en tiempo real durante la sesión.
-* **Motor de Visualización:** Generación de gráficas dinámicas para comparar el progreso y la carga.
-* **Diseño Responsive:** Interfaz optimizada para su uso en dispositivos móviles dentro del gimnasio.
-* **Infraestructura Robusta:** Despliegue automatizado utilizando contenedores Docker y servidor Nginx.
+* **Gestión de Usuarios y Perfiles:** Implementación de un sistema de autenticación seguro para proteger los datos personales y el historial de cada atleta.
+* **Constructor de Rutinas (CRUD):** Herramienta flexible que permite a los usuarios crear, editar, visualizar y eliminar sus propios planes de entrenamiento de forma organizada.
+* **Registro de Sesiones en Tiempo Real:** Interfaz optimizada para anotar marcas (pesos y repeticiones) mientras se realiza el entrenamiento, facilitando el seguimiento de la sesión.
+* **Motor de Visualización de Datos:** Generación de gráficas dinámicas para comparar el progreso, analizar el volumen de entrenamiento y verificar la evolución de las cargas a lo largo del tiempo.
+* **Infraestructura y Despliegue:** Configuración profesional mediante contenedores Docker y servidor Nginx para asegurar un funcionamiento fiable en servidores reales.
 
-## 🚀 Features Extra (Fases Posteriores)
-* **Calculadora de 1RM:** Estimación de la fuerza máxima basada en el historial registrado.
-* **Temporizador de Descanso:** Cronómetro integrado entre series para controlar la densidad del entrenamiento.
-* **Historial de Medidas:** Seguimiento de evolución de peso corporal y perímetros.
-* **Exportación de Datos:** Generación de informes en PDF o CSV para análisis externos.
+## 🛠️ Stack Tecnológico
+* **Frontend:** React.js
+* **Backend:** PHP
+* **Base de Datos:** MySQL o MariaDB
+* **Despliegue y Control:** Docker, Git y GitHub
 
-## 🛠️ Tecnologías Utilizadas
-* **Frontend:** React.js.
-* **Backend:** PHP.
-* **Base de Datos:** MySQL o MariaDB.
-* **Despliegue y Control:** Docker, Git y GitHub.
+---
+*Este proyecto es parte del desarrollo de la 1ª Semana del Proyecto Integrado.*
